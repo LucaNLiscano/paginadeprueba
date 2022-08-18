@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color:rgba(90, 134, 45, 0.925);
+padding: 10px;
+flex-wrap: wrap;
+gap: 15px;
+min-height: 70px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.logo h1{
+    color:black;
+}
+
+nav a {
+
+    text-decoration: none;
+    color:black;
+    
+
+}
+
+nav a:hover{
+    color: white;
+}
