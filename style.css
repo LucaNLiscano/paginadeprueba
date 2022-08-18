@@ -2,12 +2,14 @@
     margin: 0%;
     padding:0%;
 }
-
+body{
+   font-family: sans-serif; 
+}
 header{
 display: flex;
 align-items: center;
 justify-content: space-between;
-background-color:rgba(90, 134, 45, 0.925);
+background-color:rgba(28, 120, 206, 0.74);
 padding: 10px;
 flex-wrap: wrap;
 gap: 15px;
@@ -36,4 +38,13 @@ nav a {
 
 nav a:hover{
     color: white;
+}
+
+.titulos{
+    text-align: center;
+    color: white;
+}
+
+.informacion{
+    background-color: black;
 }
